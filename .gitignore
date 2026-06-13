@@ -1,0 +1,6 @@
+# Installer binaries are attached to GitHub Releases, not committed to the repo.
+_dist/
+*.exe
+*.dmg
+*.AppImage
+*.blockmap
