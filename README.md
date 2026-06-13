@@ -12,14 +12,18 @@ A **Blitz-style desktop companion for competitive Pokémon (VGC)** — build and
 
 - **Live Battle overlay** — spectate a Pokémon Showdown room and mirror it into a frameless, always-on-top, click-through overlay (both teams, HP, revealed moves, Tera, weather/terrain, live log).
 - **Team Builder + analysis** — full VGC editor (species / item / ability / nature / Tera / moves / EV sliders with live stats), defensive type-coverage matrix, shared-weakness hotspots, speed tiers. One-click Showdown export, local saving, and import from Showdown text or Poképaste.
-- **Damage Calculator** — full calculator with items, abilities, natures, Tera, EVs, field conditions, and KO chances.
+- **Damage Calculator** — Pikalytics-style bidirectional calc: both Pokémon's moves at once, full stat tables, field conditions (weather, terrain, screens, Tailwind, Helping Hand), and KO chances.
+- **Live damage estimates** — during battles, the overlay and Live page show your damage out vs incoming based on revealed sets.
+- **Opponent scouting** — per-opponent notes, tags, known Pokémon, W/L record; auto-suggests names from your replays.
+- **Team Cores** — most-played pairings from Smogon usage + teammate data (Meta → Team Cores tab).
+- **Auto-updates** — the app checks for new versions on launch (Settings → Updates).
 - **Pokédex** — searchable, type-filterable browser with animated sprites, abilities, and base-stat graphs.
 - **Replays + win-rate tracking** — paste a Showdown replay URL to auto-parse teams, leads, and the winner; build a match history; and view win-rate + usage analytics.
 - **Meta / Usage** — live Smogon usage stats per format, with an offline fallback.
 
 ## Install (Windows)
 
-1. Download **`VGC-Tracker-Setup-0.1.0.exe`** from the [latest release](https://github.com/Has2kcl/vgc-tracker-releases/releases/latest).
+1. Download **`VGC-Tracker-Setup-0.2.0.exe`** from the [latest release](https://github.com/Has2kcl/vgc-tracker-releases/releases/latest).
 2. Run it. Because the app isn't code-signed yet, Windows **SmartScreen** may show
    *"Windows protected your PC."* Click **More info → Run anyway** — this is expected
    for new indie apps and the installer is the exact file built from source.
